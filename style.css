@@ -1,0 +1,112 @@
+body {margin :0;font-family: 'Merriweather', serif}
+p{ color: dimgray;}
+.lttr { color: lightsalmon;}
+h1 { color: tomato;
+font-size: 40px;}
+.half-width { 
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.half-width img {
+    width: 100%;
+}
+.linkbutton {
+    display: inline-block;
+    padding: left;
+    color: rgb(252, 89, 14);
+    background-color: transparent;
+    border:2px solid rgb(228, 64, 35);
+    border-radius: 5px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.01rem;
+    margin-top: 20px;
+    transition: .35s ease;
+    transition-property: background-color, color;
+    text-decoration: none;
+}
+.linkbutton :hover {
+    color: white;
+    background-color: tomato ;
+}
+h2 {font-size: 30px;}
+.lttr2 { color: tomato; text-align: center;}
+.project-item {
+    width: 30%;
+     float: left;
+    margin-left: 2%;}
+    
+
+.workproject { align-items: center;
+    float: left;
+    background-color: rgb(241, 236, 236);
+}
+.work { text-align: center;}
+.box {
+    box-shadow: silver 10px 10px 40px;
+}
+.project-item img { padding-left: 50px ;}
+h3 { text-align: center;}
+.project-item p { padding-left: 10px;}
+.project-item:hover {
+    background-color: silver;
+
+}
+footer img{padding-left: 250px; padding-top: 100px;}
+#last2 { padding-top: 200px; padding-left: 900px;
+}
+#last2 { background-image: url("image/footer.png"); background-size: 600px; background-position: inherit;
+    background-repeat: no-repeat; padding-left: 40px; padding-block: 70px; color: ivory;
+ }
+ #last { padding-left: 350px; width: 100%; padding-top: 600px ;}
+ .last3 { text-align: center; padding-top: 20px;}
+ .finish1 {
+     
+     margin-left: 0%;
+     margin-right: 0%;
+     padding-top: 0;
+ }
+.finish2 {
+    float: right;
+    margin-left:6%
+    
+
+}
+.icons {
+    display: inline-flex;
+    float: right;;
+    margin-top: 0%
+    
+
+}
+.icons img{
+    padding-top: 10px;
+    margin-right: 0;
+}
+ul {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    height: 36px;
+    line-height: 30px;
+    background-color: lightcoral;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+}
+li { float: left;
+border: 1px solid salmon ;
+}
+a {
+    display: block;
+    padding: 0px 25px;
+    color: white;
+    text-decoration: none;
+
+}
+a:hover {
+    background-color: tomato;
+}
